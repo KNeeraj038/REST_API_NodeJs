@@ -3,17 +3,17 @@ Demo of REST API using NodeJs
 
 ## Reading all courses
 ### example 
-GET
+GET request below url
 http://localhost:3000/api/courses/
 
 ## Reading specific course using ID
 ### example
-GET
+GET request below url
 http://localhost:3000/api/courses/1 
 
 ## // To add new course
 ### example 
-POST
+POST request below url
 http://localhost:3000/api/courses/
 Json body
 {
@@ -22,7 +22,7 @@ Json body
 
 ## Update Course details.
 ### example 
-PUT
+PUT request below url
 http://localhost:3000/api/courses/1
 
 Json body
@@ -32,6 +32,5 @@ Json body
 
 ## Delete Course 
 ### example 
-DELETE
+DELETE request below url
 http://localhost:3000/api/courses/1
-
